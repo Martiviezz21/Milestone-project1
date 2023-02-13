@@ -1,108 +1,63 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 1
+This is a photographer website. It is designed to be responsive and accessible on different devices. 
+My client and I had discussed thoroughly about the look  and the purpose of the website, so I designed with the thought of having a simple and eye-catching webpage. The aim of the project is to show his works and find clients.
+## Design
+- Colour Scheme : The main colour used are black, white and grey. My client takes black&white pictute so I decided to follow his style.
+- Typography : The main font used is Arial for the whole website with Helvetica and san-serif as a fallback font in case the main font is not imported into the site correctly.
+- Imagery : Together with my client we chose a picture for the background's home page. We find it attractive on his semplicity.
+## Wireframes
+<img src="assets/images/readme-wireframe/desktop-home.jpg" width=600 height=400>
+<img src="assets/images/readme-wireframe/descktop-gallery.jpg" width=600 height=400>
+<img src="assets/images/readme-wireframe/descktop-about.jpg" width=600 height=400>
 
-Welcome Martiviezz21,
+<img src="assets/images/readme-wireframe/phone-home.jpg" width=400 height=600>
+<img src="assets/images/readme-wireframe/phone-gallery.jpg" width=400 height=600>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Feature
+- Responsive on three devices sizes as project's requirement.
+- Interactive elements.
+- The nav bar include Home, Gallery, About, Books, Contact and social media links and it is idetical on all pages for an easy navigation.
+- The Home page introduces the user to Stefano Fantuzzi Photography website.
+- The Gallery page will show what kind of works the photographer does.
+- The About page consist in a small interview to the photographer and also his exhibitions.
+- The Books page is a direct link to blurb website.
+- The contact page consist in a form where the user can submit a message to the photographer.
+## Tecnologies Used
+### Langueages Used
+- HTML5
+- CSS3
+### Frameworks, Libraries & Programs Used
+1. Bootstrap 4.4.1:
+- Bootstrap was used for the Form.
+2. Font Awesome:
+- Font Awesome was used on all pages to add icons for aesthetic and UX purposes.
+3. Git:
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. GitHub:
+- GitHub is used to store the projects code after being pushed from Git.
+## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- W3C Markup Validator - Add result
+- W3C CSS Validator - Add result
+## Further Testing
+- Frinds and family menbers were asked to review the site and documentation to point out any bugs and user experience issues.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Known Bugs
+a
+a
+a
+## Deployment
+a
+a
+a
+a
+## Credits
+- Bootstrap4: Bootstrap library was used on the navbar and the form.
+## Content
+- All contentet was written by the developer with the client supervision.
+## Media
+- All Images were obtain from my client.
+## Acknowledgements
+- My Mentor Jubril for his feedback.
+- Tutor support at Code Intitute for their help.
+- The client for providing the picture.
