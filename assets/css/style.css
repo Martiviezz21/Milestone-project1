@@ -91,21 +91,15 @@ Navbar
 }
 
 #menu .navbar-links li a:hover,
-.navbar-1 .navbar-links li a:hover {
-    color: #676767;
-    text-decoration: none;
+.navbar-1 .navbar-links li a:hover,
+#menu .social-networks li a:hover,
+.navbar-1 .social-networks li a:hover {
+    color: rgb(0, 128, 0)
 }
 
 #menu .navbar-links li a:active,
 .navbar-1 .navbar-links li a:active {
     color: rgb(255, 0, 0);
-}
-
-#menu .navbar-links li a:hover,
-.navbar-1 .navbar-links li a:hover,
-#menu .social-networks li a:hover,
-.navbar-1 .social-networks li a:hover {
-    color: rgb(0, 128, 0)
 }
 
 /* =============
@@ -254,7 +248,6 @@ Media Query
     }
 
     .icons {
-        background-color: red;
         padding-bottom: 0;
     }
 
@@ -308,58 +301,37 @@ Media Query
     }
 
     .brand-title {
-
         font-size: 1.25rem;
         margin: 0 auto;
     }
 
-    .navbar-links li a {
-        line-height: 2rem;
+    .navbar-links li {
+        font-size: 1rem;
     }
 
     .icons {
         display: flex;
-        justify-content: center;
-        align-items: center;
         padding-bottom: 0;
     }
 
-    .social-networks {
-
-        padding-bottom: 0;
-    }
-
-    /*
-    .navbar-links {
-        margin: 0 auto;
-    }
-
-    .navbar-links ul {
-        flex-direction: row;
-    }
-
-    .navbar-links li {
-        display: inline;
-        font-size: 0.85rem;
-        padding-right: 1.5rem;
-
-    }
-
-    .icons {
-        margin: 0 auto;
-    }
-
-    .social-networks li a {
-        font-size: 0.85rem;
-
-    }
-*/
     .container-gallery {
         margin: 0 auto;
-        padding: 1rem;
     }
 
     .gallery {
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
     }
+    
+    .about-text,
+    .exhibition h4,
+    .exhibition h5,
+    .exhibition p {
+        font-size: 1rem;
+    }
+
+    .about-text {
+        min-width: 50%;
+    }
+
 }
