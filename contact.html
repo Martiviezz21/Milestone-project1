@@ -1,90 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap link-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      type="text/css"
+    />
 
-  <!--Bootstrap link-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
+    <!--Font Awesome Link-->
+    <script
+      src="https://kit.fontawesome.com/88c70484a9.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!--Font Awesome Link-->
-  <script src="https://kit.fontawesome.com/88c70484a9.js" crossorigin="anonymous"></script>
+    <!--CSS link-->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!--CSS link-->
-  <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon-->
+    <title>Stefano Fantuzzi</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/fav.ico" />
+  </head>
 
-  <!-- Favicon-->
-  <title>Stefano Fantuzzi</title>
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-</head>
+  <body>
+    <header>
+      <!-- Navbar-->
+      <nav class="navbar-1">
+        <div class="brand-title">Stefano Photography</div>
+        <div class="navbar-links">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a class="active" href="contact.html">Contact</a>
+            </li>
 
-<body>
-  <header>
-    <nav class="navbar-1">
-      <div class="brand-title">Stefano Photography</div>
-      <div class="navbar-links">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          <li>
-            <a href="https://www.blurb.co.uk/books/8917294-fr794"
-            target="_blank">Book</a>
-          </li>
-        </ul>
-      </div>
-      <div class="icons">
-        <ul class="social-networks">
-          <li>
-            <a href="https://www.linkedin.com" target="_blank">
-              <i class="fa-brands fa-linkedin button"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank">
-              <i class="fa-brands fa-instagram button"></i></a>
-          </li>
-          <li>
-            <a href="https://www.tumblr.com" target="_blank">
-              <i class="fa-brands fa-square-tumblr button"></i></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <section>
-    <div id="contact">
-      <div class="contact-heading">
-        <h4>Contact Me</h4>
-      </div>
-      <div class="center-form">
-        <form>
-          <input type="text" name="name" id="name" class="form-control" placeholder="Forename" required />
-          <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required />
-          <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-          <textarea row="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
-          <div class="form-row">
-            <div class="col">
-              <button type="submit" class="btn btn-secondary">
-                Send Message
-              </button>
+            <li>
+              <a
+                href="https://www.blurb.co.uk/books/8917294-fr794"
+                target="_blank"
+                >Book</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="icons">
+          <ul class="social-networks">
+            <li>
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="fa-brands fa-linkedin button"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram button"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.tumblr.com" target="_blank">
+                <i class="fa-brands fa-square-tumblr button"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <!--Contact section-->
+      <div id="contact">
+        <div class="contact-heading">
+          <h4>Contact Me</h4>
+        </div>
+        <div class="center-form">
+          <form method="post" target="_blank" action="https://formdump.codeinstitute.net/">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Forename"
+              required
+            />
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              class="form-control"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="emailaddress"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              placeholder="Message"
+              required
+            ></textarea>
+            <div class="form-row">
+              <div class="col">
+                <button type="submit" class="btn btn-secondary">
+                  Send Message
+                </button>
+              </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
-  </section>
-
-
-</body>
-
+    </section>
+  </body>
 </html>

@@ -6,22 +6,41 @@ My client and I had discussed thoroughly about the look  and the purpose of the 
 - Typography : The main font used is Arial for the whole website with Helvetica and san-serif as a fallback font in case the main font is not imported into the site correctly.
 - Imagery : Together with my client we chose a picture for the background's home page. We find it attractive on his semplicity.
 ## Wireframes
-<img src="assets/images/readme-wireframe/desktop-home.jpg" width=600 height=400>
-<img src="assets/images/readme-wireframe/descktop-gallery.jpg" width=600 height=400>
-<img src="assets/images/readme-wireframe/descktop-about.jpg" width=600 height=400>
+<img src="assets/images/readme/desktop-home.jpg" width=600 height=400>
+<img src="assets/images/readme/descktop-gallery.jpg" width=600 height=400>
+<img src="assets/images/readme/descktop-about.jpg" width=600 height=400>
 
-<img src="assets/images/readme-wireframe/phone-home.jpg" width=400 height=600>
-<img src="assets/images/readme-wireframe/phone-gallery.jpg" width=400 height=600>
+<img src="assets/images/readme/phonr-home.jpg" width=400 height=600>
+<img src="assets/images/readme/phone-gallery.jpg" width=400 height=600>
 
 ## Feature
 - Responsive on three devices sizes as project's requirement.
 - Interactive elements.
-- The nav bar include Home, Gallery, About, Books, Contact and social media links and it is idetical on all pages for an easy navigation.
-- The Home page introduces the user to Stefano Fantuzzi Photography website.
-- The Gallery page will show what kind of works the photographer does.
-- The About page consist in a small interview to the photographer and also his exhibitions.
 - The Books page is a direct link to blurb website.
-- The contact page consist in a form where the user can submit a message to the photographer.
+
+### - Navigation bar and Home page
+<img src="assets/images/readme/home.jpg" width=200 height=600>
+
+- Featured on all the pages, the navigation bar includes links to Home, Gallery, About and Contact page. It also include icons to Linkedin, Instagram and Tumblr. It is idetical in each page for an easy navigation.
+- This section will allow the user to navigate easily through the website from a page to another.
+- The Home Page introduce the user to Stafano Photography with an intesting full screen background photograph.
+
+### - Gallery
+<img src="assets/images/readme/gallery.jpg" width=300 height=600>
+
+- The Gallery is showing some of the Photographer's works. This section will expand every time new pictures are uploded. 
+- The user will see what kind of works the Photographer does.
+
+### - About
+<img src="assets/images/readme/about.jpg" width=300 height=600>
+
+- The About page is for the user to know the Photographer.It consists in a small interview to the Photographer and also his exhibitions.
+
+### - Contact
+<img src="assets/images/readme/contact.jpg" width=400 height=700>
+
+- The Contact page is for the user to get in touch with the Photographer if they want to work together or hire him.
+
 ## Tecnologies Used
 ### Langueages Used
 - HTML5
@@ -37,22 +56,32 @@ My client and I had discussed thoroughly about the look  and the purpose of the 
 - GitHub is used to store the projects code after being pushed from Git.
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-- W3C Markup Validator - Add result
-- W3C CSS Validator - Add result
+- W3C Markup Validator - No errors
+- W3C CSS Validator - No errors
 ## Further Testing
 - Frinds and family menbers were asked to review the site and documentation to point out any bugs and user experience issues.
-
 ## Known Bugs
-a
-a
-a
+<img src="assets/images/readme/navbar-tablet.jpg" width=800 height=200>
+<img src="assets/images/readme/navbar-phone.jpg" width=600 height=300>
+
+On Tablet screen the Brand-title is not align with the navbar.
+On Phone screen the header is not centered.
+
+I have used diplay property flex for the header. I've been looking for a solution several time but couldn't find it. 
+
 ## Deployment
-a
-a
-a
-a
+I used GitHub to deploy this website. The steps to deply it are the following one:
+1. GitHub Repositoty
+2. Setting
+3. GitHub Pages
+4. Under "Source" click the dropdown called "None" and chose "master Branch".
+5. The page will refresh on it's own
+6. Scroll down through the page to locate the now publish site link in the "GitHub Pages" section.
+
+The live link can be found here -WWWWWWWWW
 ## Credits
-- Bootstrap4: Bootstrap library was used on the navbar and the form.
+- Bootstrap4: Bootstrap library was used on the form.
+- Nav Dev Simplified on YouTube: I have followed his tutorial on flex.
 ## Content
 - All contentet was written by the developer with the client supervision.
 ## Media
