@@ -95,7 +95,6 @@ I used GitHub to deploy this website. The steps to deploy it are the following:
 The live link can be found here -WWWWWWWWW
 ## Credits
 - Bootstrap4: Bootstrap library was used on the form.
-- Nav Dev Simplified on YouTube: I have followed his tutorial on flex.
 ## Content
 - All content was written by the developer with client supervision.
 ## Media
