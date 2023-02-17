@@ -1,10 +1,10 @@
 # Milestone Project 1
-This is a photographer website. It is designed to be responsive and accessible on different devices. 
-My client and I had discussed thoroughly about the look  and the purpose of the website, so I designed with the thought of having a simple and eye-catching webpage. The aim of the project is to show his works and find clients.
+This is a photographer's website. It is designed to be responsive and accessible on different devices. 
+My client and I had discussed thoroughly the look  and the purpose of the website, so I designed it with the thought of having a simple and eye-catching webpage. The aim of the project is to show his works and find clients.
 ## Design
-- Colour Scheme : The main colour used are black, white and grey. My client takes black&white pictute so I decided to follow his style.
-- Typography : The main font used is Arial for the whole website with Helvetica and san-serif as a fallback font in case the main font is not imported into the site correctly.
-- Imagery : Together with my client we chose a picture for the background's home page. We find it attractive on his semplicity.
+- Colour Scheme: The main colours used are black, white and grey. My client takes black&white pictures so I decided to follow his style.
+- Typography: The main font used is Arial for the whole website with Helvetica and san-serif as fallback font in case the main fonts is not imported into the site correctly.
+- Imagery: Together with my client we chose a picture for the background's home page. We find it attractive in his semplicity.
 ## User Experience (UX)
 
 ### User Stories
@@ -13,7 +13,7 @@ My client and I had discussed thoroughly about the look  and the purpose of the 
     2. As a First Time Visitor, I want to be able to navigate the site easily.
 - Returning Visitor Goals
     1. As a Returning Visitor, I want to find information about the Photographer and see his works.
-    2. As a returning Vititor, I want to find the best way to get in contct with the Photographer. 
+    2. As a returning Visitor, I want to find the best way to get in contct with the Photographer. 
 - Frequent User Goals
     1. As a Frequent User, I want to find easily the Gallery Page to see if there are any new works.
     2. As a Frequent User, I want to find community links to follow his work-life. 
@@ -27,21 +27,22 @@ My client and I had discussed thoroughly about the look  and the purpose of the 
 <img src="assets/images/readme/phone-gallery.jpg" width=400 height=600>
 
 ## Feature
-- Responsive on three devices sizes as project's requirement.
+- Responsive to three device sizes as per the project's requirement.
 - Interactive elements.
-- The Books page is a direct link to blurb website.
+- The Books page is a direct link to the blurb website.
+
 
 ### - Navigation bar and Home page
 <img src="assets/images/readme/home.jpg" width=200 height=600>
 
-- Featured on all the pages, the navigation bar includes links to Home, Gallery, About and Contact page. It also include icons to Linkedin, Instagram and Tumblr. It is idetical in each page for an easy navigation.
-- This section will allow the user to navigate easily through the website from a page to another.
-- The Home Page introduce the user to Stafano Photography with an intesting full screen background photograph.
+- Featured on all the pages, the navigation bar includes links to Home, Gallery, About, and Contact pages. It also includes icons for Linkedin, Instagram, and Tumblr. It is identical on each page for easy navigation.
+- This section will allow the user to navigate easily through the website from one page to another.
+- The Home Page introduces the user to Stefano Photography with an interesting full-screen background photograph.
 
 ### - Gallery
 <img src="assets/images/readme/gallery.jpg" width=300 height=600>
 
-- The Gallery is showing some of the Photographer's works. This section will expand every time new pictures are uploded. 
+- The Gallery is showing some of the Photographer's works. This section will expand every time new pictures are  uploaded.
 - The user will see what kind of works the Photographer does.
 
 ### - About
@@ -54,8 +55,9 @@ My client and I had discussed thoroughly about the look  and the purpose of the 
 
 - The Contact page is for the user to get in touch with the Photographer if they want to work together or hire him.
 
-## Tecnologies Used
-### Langueages Used
+## Technologies Used
+### Languages Used
+- HTML5
 - HTML5
 - CSS3
 ### Frameworks, Libraries & Programs Used
@@ -66,40 +68,39 @@ My client and I had discussed thoroughly about the look  and the purpose of the 
 3. Git:
 - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 4. GitHub:
-- GitHub is used to store the projects code after being pushed from Git.
+- GitHub is used to store the project's code after being pushed from Git.
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 - W3C Markup Validator - No errors
 - W3C CSS Validator - No errors
 ## Further Testing
-- Frinds and family menbers were asked to review the site and documentation to point out any bugs and user experience issues.
+- Friends and family members were asked to review the site and documentation to point out any bugs and user experience issues.
 ## Known Bugs
 <img src="assets/images/readme/navbar-tablet.jpg" width=800 height=200>
 <img src="assets/images/readme/navbar-phone.jpg" width=600 height=300>
 
-On Tablet screen the Brand-title is not align with the navbar.
-On Phone screen the header is not centered.
+On the Tablet screen, the Brand-title is not aligned with the navbar.
+On the Phone screen, the header is not centered.
 
-I have used diplay property flex for the header. I've been looking for a solution several time but couldn't find it. 
-
+I have used display property flex for the header. I've been looking for a solution several times but couldn't find it. 
 ## Deployment
-I used GitHub to deploy this website. The steps to deply it are the following one:
-1. GitHub Repositoty
+I used GitHub to deploy this website. The steps to deploy it are the following:
+1. GitHub Repository
 2. Setting
 3. GitHub Pages
 4. Under "Source" click the dropdown called "None" and chose "master Branch".
-5. The page will refresh on it's own
-6. Scroll down through the page to locate the now publish site link in the "GitHub Pages" section.
+5. The page will refresh on its own
+6. Scroll down through the page to locate the now-publish site link in the "GitHub Pages" section.
 
 The live link can be found here -WWWWWWWWW
 ## Credits
 - Bootstrap4: Bootstrap library was used on the form.
 - Nav Dev Simplified on YouTube: I have followed his tutorial on flex.
 ## Content
-- All contentet was written by the developer with the client supervision.
+- All content was written by the developer with client supervision.
 ## Media
-- All Images were obtain from my client.
+- All Images were obtained from my client.
 ## Acknowledgements
 - My Mentor Jubril for his feedback.
-- Tutor support at Code Intitute for their help.
+- Tutor support at Code Institute for their help.
 - The client for providing the picture.
