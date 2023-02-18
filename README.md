@@ -1,6 +1,13 @@
 # Milestone Project 1
 This is a photographer's website. It is designed to be responsive and accessible on different devices. 
 My client and I had discussed thoroughly the look  and the purpose of the website, so I designed it with the thought of having a simple and eye-catching webpage. The aim of the project is to show his works and find clients.
+
+<img src="assets/images/readme/deskto-look.jpg" width=600 height=400>
+
+<img src="assets/images/readme/tablet-look.jpg" width=400 height=400>
+
+<img src="assets/images/readme/phone-look.jpg" width=200 height=400>
+
 ## Design
 - Colour Scheme: The main colours used are black, white and grey. My client takes black&white pictures so I decided to follow his style.
 - Typography: The main font used is Arial for the whole website with Helvetica and san-serif as fallback font in case the main fonts is not imported into the site correctly.
@@ -72,7 +79,13 @@ My client and I had discussed thoroughly the look  and the purpose of the websit
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 - W3C Markup Validator - No errors
+
+<img src="assets/images/readme/html.jpg" width=400 height=40>
+
 - W3C CSS Validator - No errors
+
+<img src="assets/images/readme/css.jpg" width=500 height=40>
+
 ## Further Testing
 - Friends and family members were asked to review the site and documentation to point out any bugs and user experience issues.
 ## Known Bugs
