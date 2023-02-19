@@ -103,11 +103,11 @@ I used GitHub to deploy this website. The steps to deploy it are the following:
 1. GitHub Repository
 2. Setting
 3. GitHub Pages
-4. Under "Source" click the dropdown called "None" and chose "master Branch".
+4. Under "Source" click the dropdown called "None" and chose "main branch".
 5. The page will refresh on its own
 6. Scroll down through the page to locate the now-publish site link in the "GitHub Pages" section.
 
-The live link can be found here -WWWWWWWWW
+The live link can be found here -https://martiviezz21.github.io/Milestone-project1/
 ## Credits
 - Bootstrap4: Bootstrap library was used on the form.
 ## Content
