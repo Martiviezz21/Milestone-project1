@@ -96,6 +96,8 @@ On the Tablet screen, the Brand-title is not aligned with the navbar.
 On the Phone screen, the header is not centered.
 
 I have used display property flex for the header. I've been looking for a solution several times but couldn't find it. 
+
+On the gallery.html I have change the <section> element with a <div> as suggested from W3C Marckup Validator.
 ## Deployment
 I used GitHub to deploy this website. The steps to deploy it are the following:
 1. GitHub Repository
