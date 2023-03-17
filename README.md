@@ -86,6 +86,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <img src="assets/images/readme/css.jpg" width=500 height=40>
 
+The https://responsivedesignchecker.com/ website was used to check the responsiveness of the website.
+
+## Testing User Stories from UX section
+### - First time visitor Goals
+    1. As a First Time Visitor, I want to understand the main purpose of the website.
+    2. As a First Time Visitor, I want to be able to navigate the site easily.
+- The main point is made immediately with the Title.
+When entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
+
+### - Returning Visitor Goals
+    1. As a Returning Visitor, I want to find information about the Photographer and see his works.
+    2. As a returning Visitor, I want to find the best way to get in contct with the Photographer.
+- By clicking on the Gallery page the returning visitor can see the photographer's works. 
+On the navigation bar the returning visitor can find the "Contact" Page. Here they can fill out the form or alternately they can use the social media icons on the navigation bar.
+
+### - Frequent User Goals
+    1. As a Frequent User, I want to find easily the Gallery Page to see if there are any new works.
+    2. As a Frequent User, I want to find community links to follow his work-life.
+- As mention already, the navigation bar clealy states the Gallery page and the social media icons.
+
 ## Further Testing
 - Friends and family members were asked to review the site and documentation to point out any bugs and user experience issues.
 ## Known Bugs
